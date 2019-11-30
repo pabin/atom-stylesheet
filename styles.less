@@ -22,14 +22,22 @@ status-bar {
 
 .theme-nucleus-dark-ui {
   .tab-bar {
-    height: 22px;
+    height: 18px;
+  }
+  .tab {
+    // min-width: 10em; // larger minimum width
+    // max-width: 16em; // smaller max width
   }
 
 
   .tab-bar .tab .title {
     font-size: 13px;
-    margin-top: -7px;
+    margin-top: -9px;
   }
+  .close-icon {
+    margin-top: -9px;
+    // display: block;
+}
 
 }
 
@@ -82,7 +90,7 @@ atom-text-editor
 .syntax--variable {
     color: #E73F3F  ;
 
-
+    //
     // &.syntax--interpolation {
     //     color: #FFF;
     // }
@@ -99,6 +107,7 @@ atom-text-editor .syntax--keyword {
 
     &.syntax--control {
         font-weight: bold;
+        color: #FF6E00;    //New Added
     }
 
     &.syntax--operator {
@@ -109,6 +118,7 @@ atom-text-editor .syntax--keyword {
 
     &.syntax--other.syntax--special-method {
         // color: #A7F95F;
+        // color: #FF6E00;
     }
 }
 
